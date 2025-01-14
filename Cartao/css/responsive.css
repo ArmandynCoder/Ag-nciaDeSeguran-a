@@ -1,0 +1,75 @@
+@media screen and (max-width:1160px){
+    .main-container .form-container form{
+        width: 70%;
+        margin-right: 5%;
+    }
+    .section-container{
+        margin-bottom: 800px;
+    }
+    .section-container h2{
+        flex: 100%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .section-container .content1{
+        flex: 45%;
+        margin-top: 5%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .section-container .content2{
+        flex: 35%;
+        margin-top: 5%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .section-container .content3{
+        flex: 35%;
+        margin-top: 5%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+@media screen and (max-width: 928px) {
+    .main-container{
+        margin-bottom: 500px;
+
+    }
+    .main-container .form-container {
+        flex: 80%;
+        margin-right: 2%;
+        /* border: solid 1px red; */
+    }
+    .main-container .form-container form{
+        margin-left: 15%;
+    }
+    .main-container .img-container {
+        /* border: solid 1px green; */
+        margin-left: 2%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 395px){
+    /* .section-container{
+        margin-bottom: 300px;
+    } */
+    .main-container{
+        margin-bottom: 300px;
+    }
+    .section-container .content1{
+        height: 500px;
+    }
+    .section-container .content2{
+        height: 500px;
+    }
+    .section-container .content3{
+        height: 500px;
+    }
+    .rodape-container{
+        margin-top: 400px;
+    }
+    .rodape-container h1{
+        font-size: 30px;
+    }
+}
